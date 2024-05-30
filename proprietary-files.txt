@@ -26,6 +26,10 @@ vendor/lib/soundfx/libqcreverb.so|ee603092ab4e939eb289d35a17bddd37f7f9835f
 vendor/lib/soundfx/libqcvirt.so|67da89cce00148dddeb4991697c9773376e39d8b
 vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
 
+# libbatterylistener - from LA.UM.9.15.2.r1-09700-KAMORTA.QSSI14.0
+vendor/lib/libbatterylistener.so|71b4da03bdc4522b8829370093ebca3c90e86799
+vendor/lib64/libbatterylistener.so|ebd7be328d91c09eaf2073f78cb31560a882438b
+
 # Bluetooth - from SPES MIUI
 system_ext/bin/aptxalsOverlayCreateProject.sh|5f3a2a73fab7ed611b3481bbd9ac26ee56526032
 system_ext/etc/bluetooth/leaudio_configs.xml|9bcdda1267740f85c1f3581697d20c2967f3f7a8
