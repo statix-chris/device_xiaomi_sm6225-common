@@ -325,6 +325,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init/init.recovery.qcom.rc:$(TARGET_COPY_OUT_RECOVERY)/root/init.recovery.qcom.rc
 
 # QC common
+PRODUCT_BOARD_PLATFORM := bengal
 TARGET_BOARD_PLATFORM := bengal
 TARGET_USE_BENGAL_HALS := true
 
@@ -394,7 +395,7 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/qcom-caf/bootctrl \
-    hardware/xiaomi
+    vendor/hardware/xiaomi
 
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
